@@ -1,0 +1,5 @@
+F:\Refacco\samsung.refacco\samsung.refacco.Data\bin\Debug\samsung.refacco.Data.dll
+F:\Refacco\samsung.refacco\samsung.refacco.Data\bin\Debug\samsung.refacco.Data.pdb
+F:\Refacco\samsung.refacco\samsung.refacco.Data\obj\Debug\samsung.refacco.Data.csproj.CoreCompileInputs.cache
+F:\Refacco\samsung.refacco\samsung.refacco.Data\obj\Debug\samsung.refacco.Data.dll
+F:\Refacco\samsung.refacco\samsung.refacco.Data\obj\Debug\samsung.refacco.Data.pdb

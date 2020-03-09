@@ -1,0 +1,9 @@
+F:\Refacco\samsung.refacco\samsung.refacco.Repository\bin\Debug\samsung.refacco.Repository.dll
+F:\Refacco\samsung.refacco\samsung.refacco.Repository\bin\Debug\samsung.refacco.Repository.pdb
+F:\Refacco\samsung.refacco\samsung.refacco.Repository\bin\Debug\samsung.refacco.Data.dll
+F:\Refacco\samsung.refacco\samsung.refacco.Repository\bin\Debug\samsung.refacco.Data.pdb
+F:\Refacco\samsung.refacco\samsung.refacco.Repository\obj\Debug\samsung.refacco.Repository.csprojAssemblyReference.cache
+F:\Refacco\samsung.refacco\samsung.refacco.Repository\obj\Debug\samsung.refacco.Repository.csproj.CoreCompileInputs.cache
+F:\Refacco\samsung.refacco\samsung.refacco.Repository\obj\Debug\samsung.refacco.Repository.csproj.CopyComplete
+F:\Refacco\samsung.refacco\samsung.refacco.Repository\obj\Debug\samsung.refacco.Repository.dll
+F:\Refacco\samsung.refacco\samsung.refacco.Repository\obj\Debug\samsung.refacco.Repository.pdb

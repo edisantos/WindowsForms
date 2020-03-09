@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1000
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.UI", "01.UI", "{8CBFFD4B-F3E9-472C-91D1-3FEB12BCAFD6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02.Repository", "02.Repository", "{F3F0F446-001B-4C45-A357-33FCC030141B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03.Data", "03.Data", "{55B3F161-24C3-4C7C-A776-7FC31EC87642}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "samsung.refacco.Data", "samsung.refacco.Data\samsung.refacco.Data.csproj", "{451B3E59-B718-458B-84CD-2F66DB076C99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "samsung.refacco.ApplicationSystem", "samsung.refacco.ApplicationSystem\samsung.refacco.ApplicationSystem.csproj", "{26551019-6B60-412E-B0FC-332431BE8E47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "samsung.refacco.Repository", "samsung.refacco.Repository\samsung.refacco.Repository.csproj", "{E418AB11-8590-46B7-A14D-FFC0D1D64170}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{451B3E59-B718-458B-84CD-2F66DB076C99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{451B3E59-B718-458B-84CD-2F66DB076C99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{451B3E59-B718-458B-84CD-2F66DB076C99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{451B3E59-B718-458B-84CD-2F66DB076C99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26551019-6B60-412E-B0FC-332431BE8E47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26551019-6B60-412E-B0FC-332431BE8E47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26551019-6B60-412E-B0FC-332431BE8E47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26551019-6B60-412E-B0FC-332431BE8E47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E418AB11-8590-46B7-A14D-FFC0D1D64170}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E418AB11-8590-46B7-A14D-FFC0D1D64170}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E418AB11-8590-46B7-A14D-FFC0D1D64170}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E418AB11-8590-46B7-A14D-FFC0D1D64170}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{451B3E59-B718-458B-84CD-2F66DB076C99} = {55B3F161-24C3-4C7C-A776-7FC31EC87642}
+		{26551019-6B60-412E-B0FC-332431BE8E47} = {8CBFFD4B-F3E9-472C-91D1-3FEB12BCAFD6}
+		{E418AB11-8590-46B7-A14D-FFC0D1D64170} = {F3F0F446-001B-4C45-A357-33FCC030141B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {56107EA3-3982-47C3-88FF-A924D7D1712A}
+	EndGlobalSection
+EndGlobal
