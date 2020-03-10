@@ -133,16 +133,25 @@
   <data name="minimize-icon-png-3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Imagens\minimize-icon-png-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="mini" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\mini.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Monitoring" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Imagens\Monitoring.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IconMonitoring" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\IconMonitoring.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="delivery_man_parcel" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Imagens\delivery_man_parcel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="MenuMobile1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\MenuMobile1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Imagens\Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="mini" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Imagens\mini.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="IconPartilhar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\IconPartilhar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

@@ -1,5 +1,6 @@
 ﻿using samsung.refacco.Repository.Repositories;
 using System;
+using System.Drawing;
 using System.Windows.Forms;
 
 namespace samsung.refacco.ApplicationSystem
@@ -79,7 +80,7 @@ namespace samsung.refacco.ApplicationSystem
         private void Registros_Load(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Maximized;
-            
+            IconAbrirMenuLateral.Visible = false;
             ControlBox = false;
         }
 
@@ -99,13 +100,34 @@ namespace samsung.refacco.ApplicationSystem
             if (MenuVertical.Width == 250)
             {
                 MenuVertical.Width = 70;
-                btnRegistro.Visible = false;
+                IconAbrirMenuLateral.Visible = true;
+                pctMenuRetratio.Visible = false;
+                btnRegistro.Visible = true;
+                btnMonitoring.Visible = true;
+                lblTitleMenuLateral.Font = new Font("Monotype corsiva",28, FontStyle.Bold);
+                lblTitleMenuLateral.Text = "R";
             }
-            else
+            
+        }
+
+        private void IconAbrirMenuLateral_Click(object sender, EventArgs e)
+        {
+            if (MenuVertical.Width == 70)
             {
                 MenuVertical.Width = 250;
+                IconAbrirMenuLateral.Visible = false;
+                pctMenuRetratio.Visible = true;
+
                 btnRegistro.Visible = true;
+                btnMonitoring.Visible = true;
+                lblTitleMenuLateral.Font = new Font("Monotype corsiva", 28, FontStyle.Bold);
+                lblTitleMenuLateral.Text = "Refacco V4.0";
             }
+        }
+
+        private void btnRegistro_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Opa, você já esta na tela");
         }
 
         //private void picbMinimize_Click(object sender, EventArgs e)

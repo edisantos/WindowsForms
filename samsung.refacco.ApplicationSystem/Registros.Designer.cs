@@ -28,15 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Registros));
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Registros));
             this.MenuVertical = new System.Windows.Forms.Panel();
-            this.btnMonitoring = new System.Windows.Forms.Button();
-            this.btnRegistro = new System.Windows.Forms.Button();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.pcbSair = new System.Windows.Forms.PictureBox();
-            this.pctMenuRetratio = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
             this.GridProdutos = new System.Windows.Forms.DataGridView();
             this.Id = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -44,21 +39,28 @@
             this.Protudo = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Valor = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.lblTitleMenuLateral = new System.Windows.Forms.Label();
+            this.pcbSair = new System.Windows.Forms.PictureBox();
+            this.pctMenuRetratio = new System.Windows.Forms.PictureBox();
+            this.IconAbrirMenuLateral = new System.Windows.Forms.PictureBox();
+            this.btnMonitoring = new System.Windows.Forms.Button();
+            this.btnRegistro = new System.Windows.Forms.Button();
             this.MenuVertical.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pcbSair)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pctMenuRetratio)).BeginInit();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.GridProdutos)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcbSair)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctMenuRetratio)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.IconAbrirMenuLateral)).BeginInit();
             this.SuspendLayout();
             // 
             // MenuVertical
             // 
-            this.MenuVertical.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(92)))), ((int)(((byte)(92)))), ((int)(((byte)(130)))));
+            this.MenuVertical.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.MenuVertical.Controls.Add(this.lblTitleMenuLateral);
+            this.MenuVertical.Controls.Add(this.IconAbrirMenuLateral);
             this.MenuVertical.Controls.Add(this.btnMonitoring);
             this.MenuVertical.Controls.Add(this.btnRegistro);
-            this.MenuVertical.Controls.Add(this.pictureBox2);
             this.MenuVertical.Dock = System.Windows.Forms.DockStyle.Left;
             this.MenuVertical.Location = new System.Drawing.Point(0, 0);
             this.MenuVertical.Name = "MenuVertical";
@@ -66,58 +68,9 @@
             this.MenuVertical.TabIndex = 0;
             this.MenuVertical.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
-            // btnMonitoring
-            // 
-            this.btnMonitoring.BackColor = System.Drawing.Color.DodgerBlue;
-            this.btnMonitoring.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnMonitoring.Cursor = System.Windows.Forms.Cursors.AppStarting;
-            this.btnMonitoring.FlatAppearance.BorderSize = 0;
-            this.btnMonitoring.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Black;
-            this.btnMonitoring.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.btnMonitoring.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMonitoring.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMonitoring.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnMonitoring.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnMonitoring.Location = new System.Drawing.Point(0, 243);
-            this.btnMonitoring.Name = "btnMonitoring";
-            this.btnMonitoring.Size = new System.Drawing.Size(250, 58);
-            this.btnMonitoring.TabIndex = 2;
-            this.btnMonitoring.Text = "Monitoring";
-            this.btnMonitoring.UseVisualStyleBackColor = false;
-            this.btnMonitoring.Click += new System.EventHandler(this.btnMonitoring_Click);
-            // 
-            // btnRegistro
-            // 
-            this.btnRegistro.BackColor = System.Drawing.Color.DodgerBlue;
-            this.btnRegistro.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnRegistro.Cursor = System.Windows.Forms.Cursors.AppStarting;
-            this.btnRegistro.FlatAppearance.BorderSize = 0;
-            this.btnRegistro.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Black;
-            this.btnRegistro.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.btnRegistro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRegistro.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRegistro.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnRegistro.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnRegistro.Location = new System.Drawing.Point(0, 165);
-            this.btnRegistro.Name = "btnRegistro";
-            this.btnRegistro.Size = new System.Drawing.Size(250, 58);
-            this.btnRegistro.TabIndex = 1;
-            this.btnRegistro.Text = "Registrar";
-            this.btnRegistro.UseVisualStyleBackColor = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(56, 12);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(126, 106);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 0;
-            this.pictureBox2.TabStop = false;
-            // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(92)))), ((int)(((byte)(92)))), ((int)(((byte)(130)))));
+            this.panel2.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.panel2.Controls.Add(this.pcbSair);
             this.panel2.Controls.Add(this.pctMenuRetratio);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
@@ -125,31 +78,6 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(735, 61);
             this.panel2.TabIndex = 1;
-            // 
-            // pcbSair
-            // 
-            this.pcbSair.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.pcbSair.BackColor = System.Drawing.Color.Transparent;
-            this.pcbSair.Image = ((System.Drawing.Image)(resources.GetObject("pcbSair.Image")));
-            this.pcbSair.Location = new System.Drawing.Point(693, 17);
-            this.pcbSair.Name = "pcbSair";
-            this.pcbSair.Size = new System.Drawing.Size(30, 30);
-            this.pcbSair.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pcbSair.TabIndex = 1;
-            this.pcbSair.TabStop = false;
-            this.pcbSair.Click += new System.EventHandler(this.pcbSair_Click);
-            // 
-            // pctMenuRetratio
-            // 
-            this.pctMenuRetratio.BackColor = System.Drawing.Color.Transparent;
-            this.pctMenuRetratio.Image = ((System.Drawing.Image)(resources.GetObject("pctMenuRetratio.Image")));
-            this.pctMenuRetratio.Location = new System.Drawing.Point(18, 12);
-            this.pctMenuRetratio.Name = "pctMenuRetratio";
-            this.pctMenuRetratio.Size = new System.Drawing.Size(35, 35);
-            this.pctMenuRetratio.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pctMenuRetratio.TabIndex = 0;
-            this.pctMenuRetratio.TabStop = false;
-            this.pctMenuRetratio.Click += new System.EventHandler(this.pctMenuRetratio_Click);
             // 
             // panel3
             // 
@@ -224,6 +152,97 @@
             this.panel4.Size = new System.Drawing.Size(735, 42);
             this.panel4.TabIndex = 0;
             // 
+            // lblTitleMenuLateral
+            // 
+            this.lblTitleMenuLateral.AutoSize = true;
+            this.lblTitleMenuLateral.BackColor = System.Drawing.Color.Transparent;
+            this.lblTitleMenuLateral.Font = new System.Drawing.Font("Monotype Corsiva", 27.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitleMenuLateral.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lblTitleMenuLateral.Location = new System.Drawing.Point(7, 80);
+            this.lblTitleMenuLateral.Name = "lblTitleMenuLateral";
+            this.lblTitleMenuLateral.Size = new System.Drawing.Size(208, 45);
+            this.lblTitleMenuLateral.TabIndex = 4;
+            this.lblTitleMenuLateral.Text = "Refacco V4.0";
+            // 
+            // pcbSair
+            // 
+            this.pcbSair.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pcbSair.BackColor = System.Drawing.Color.Transparent;
+            this.pcbSair.Image = ((System.Drawing.Image)(resources.GetObject("pcbSair.Image")));
+            this.pcbSair.Location = new System.Drawing.Point(693, 17);
+            this.pcbSair.Name = "pcbSair";
+            this.pcbSair.Size = new System.Drawing.Size(30, 30);
+            this.pcbSair.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pcbSair.TabIndex = 1;
+            this.pcbSair.TabStop = false;
+            this.pcbSair.Click += new System.EventHandler(this.pcbSair_Click);
+            // 
+            // pctMenuRetratio
+            // 
+            this.pctMenuRetratio.BackColor = System.Drawing.Color.Transparent;
+            this.pctMenuRetratio.Image = ((System.Drawing.Image)(resources.GetObject("pctMenuRetratio.Image")));
+            this.pctMenuRetratio.Location = new System.Drawing.Point(8, 7);
+            this.pctMenuRetratio.Name = "pctMenuRetratio";
+            this.pctMenuRetratio.Size = new System.Drawing.Size(50, 50);
+            this.pctMenuRetratio.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pctMenuRetratio.TabIndex = 0;
+            this.pctMenuRetratio.TabStop = false;
+            this.pctMenuRetratio.Click += new System.EventHandler(this.pctMenuRetratio_Click);
+            // 
+            // IconAbrirMenuLateral
+            // 
+            this.IconAbrirMenuLateral.BackColor = System.Drawing.Color.Transparent;
+            this.IconAbrirMenuLateral.Image = global::samsung.refacco.ApplicationSystem.Properties.Resources.MenuMobile1;
+            this.IconAbrirMenuLateral.Location = new System.Drawing.Point(12, 7);
+            this.IconAbrirMenuLateral.Name = "IconAbrirMenuLateral";
+            this.IconAbrirMenuLateral.Size = new System.Drawing.Size(50, 50);
+            this.IconAbrirMenuLateral.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.IconAbrirMenuLateral.TabIndex = 3;
+            this.IconAbrirMenuLateral.TabStop = false;
+            this.IconAbrirMenuLateral.Click += new System.EventHandler(this.IconAbrirMenuLateral_Click);
+            // 
+            // btnMonitoring
+            // 
+            this.btnMonitoring.BackColor = System.Drawing.Color.Transparent;
+            this.btnMonitoring.BackgroundImage = global::samsung.refacco.ApplicationSystem.Properties.Resources.IconMonitoring;
+            this.btnMonitoring.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnMonitoring.Cursor = System.Windows.Forms.Cursors.AppStarting;
+            this.btnMonitoring.FlatAppearance.BorderSize = 0;
+            this.btnMonitoring.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Black;
+            this.btnMonitoring.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btnMonitoring.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMonitoring.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMonitoring.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnMonitoring.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnMonitoring.Location = new System.Drawing.Point(0, 243);
+            this.btnMonitoring.Name = "btnMonitoring";
+            this.btnMonitoring.Size = new System.Drawing.Size(250, 58);
+            this.btnMonitoring.TabIndex = 2;
+            this.btnMonitoring.Text = "Monitoring";
+            this.btnMonitoring.UseVisualStyleBackColor = false;
+            this.btnMonitoring.Click += new System.EventHandler(this.btnMonitoring_Click);
+            // 
+            // btnRegistro
+            // 
+            this.btnRegistro.BackColor = System.Drawing.Color.Transparent;
+            this.btnRegistro.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnRegistro.Cursor = System.Windows.Forms.Cursors.AppStarting;
+            this.btnRegistro.FlatAppearance.BorderSize = 0;
+            this.btnRegistro.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Black;
+            this.btnRegistro.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btnRegistro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRegistro.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRegistro.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnRegistro.Image = global::samsung.refacco.ApplicationSystem.Properties.Resources.IconPartilhar;
+            this.btnRegistro.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnRegistro.Location = new System.Drawing.Point(0, 165);
+            this.btnRegistro.Name = "btnRegistro";
+            this.btnRegistro.Size = new System.Drawing.Size(250, 58);
+            this.btnRegistro.TabIndex = 1;
+            this.btnRegistro.Text = "Tracking";
+            this.btnRegistro.UseVisualStyleBackColor = false;
+            this.btnRegistro.Click += new System.EventHandler(this.btnRegistro_Click);
+            // 
             // Registros
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -237,12 +256,13 @@
             this.Text = "Registros";
             this.Load += new System.EventHandler(this.Registros_Load);
             this.MenuVertical.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            this.MenuVertical.PerformLayout();
             this.panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pcbSair)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pctMenuRetratio)).EndInit();
             this.panel3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.GridProdutos)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcbSair)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctMenuRetratio)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.IconAbrirMenuLateral)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -254,7 +274,6 @@
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.PictureBox pctMenuRetratio;
-        private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Button btnRegistro;
         private System.Windows.Forms.DataGridView GridProdutos;
         private System.Windows.Forms.DataGridViewTextBoxColumn Id;
@@ -263,5 +282,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Valor;
         private System.Windows.Forms.PictureBox pcbSair;
         private System.Windows.Forms.Button btnMonitoring;
+        private System.Windows.Forms.PictureBox IconAbrirMenuLateral;
+        private System.Windows.Forms.Label lblTitleMenuLateral;
     }
 }
