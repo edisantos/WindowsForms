@@ -109,6 +109,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Imagens\delivery_man_parcel.png" />
+    <Content Include="Imagens\IconFecharAplicacao.png" />
+    <Content Include="Imagens\IconMaximizar.png" />
+    <Content Include="Imagens\IconMinimizar.png" />
+    <Content Include="Imagens\IconMinizar2.png" />
     <Content Include="Imagens\IconMonitoring.png" />
     <Content Include="Imagens\IconPartilhar.png" />
     <Content Include="Imagens\Logo.png" />
@@ -118,6 +122,7 @@
     <Content Include="Imagens\mini.png" />
     <Content Include="Imagens\minimize-icon-png-3.png" />
     <Content Include="Imagens\Monitoring.png" />
+    <Content Include="Imagens\Refacco.ico" />
     <Content Include="Imagens\Register.png" />
     <Content Include="Imagens\sair.png" />
   </ItemGroup>

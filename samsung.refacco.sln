@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "samsung.refacco.Application
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "samsung.refacco.Repository", "samsung.refacco.Repository\samsung.refacco.Repository.csproj", "{E418AB11-8590-46B7-A14D-FFC0D1D64170}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup", "Instalador\Setup\Setup.vdproj", "{ABB09498-21B4-4518-9223-374FD1ADDA20}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,8 @@ Global
 		{E418AB11-8590-46B7-A14D-FFC0D1D64170}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E418AB11-8590-46B7-A14D-FFC0D1D64170}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E418AB11-8590-46B7-A14D-FFC0D1D64170}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABB09498-21B4-4518-9223-374FD1ADDA20}.Debug|Any CPU.ActiveCfg = Debug
+		{ABB09498-21B4-4518-9223-374FD1ADDA20}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

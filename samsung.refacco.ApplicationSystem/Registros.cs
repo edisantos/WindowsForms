@@ -86,6 +86,7 @@ namespace samsung.refacco.ApplicationSystem
 
         private void pcbSair_Click(object sender, EventArgs e)
         {
+            System.Diagnostics.Process.GetCurrentProcess().Kill();
             Application.Exit();
         }
 
